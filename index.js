@@ -35,12 +35,12 @@ for (var i=0; i<numberOfDrumButtons; i++) {
         break;
 
         case "l":
-        var kick = new Audio('sounds/kick.mp3');
+        var kick = new Audio('sounds/kick-bass.mp3');
         kick.play();
         break;
 
 
-        default:
+        default: console.log(innerHTML);
 
       }
 
